@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-size: 1.1em;
+    color: black;
+}
+
+body{
+    background-image: url("/images/chess-bg.png");
+}
+
+.row{
+    text-align: center;
+    min-height: 100px;
+}
+
+
+.col-md, .col-md-3{
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    margin: 1px;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+h1{
+    float: center;
+    color:white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+
+img{
+    float: center;
+    max-height: 250px;
+    padding: 3px;
+}
+
+.panel{
+    font-size: 12px;
+}
+
+h2{
+    color: inherit;
+    font-size: 24px;
+}
+
+h3{
+    color: inherit;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.map{
+        height: 100%;
+        background-color: grey;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    max-height: 166px;
+    display: block;
+}
+
+.place,
+p {
+    font-family: 'open sans', arial, sans-serif;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.details {
+    color: darkslategrey;
+}
+
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
+  
+.title{
+    height: 100px;
+} 
+
+.locate{
+   height: 600px;
+}
+
+.info{
+    min-height: 100px;
+} 
+
+.footer{
+    height: 80px;
+} 
+  
+.white{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+ 
+.black{ 
+    background-color: black;
+    border-color: white;
+    color: white;
+}

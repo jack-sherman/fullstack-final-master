@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css""
+    />
+    <link rel="stylesheet" href="static/locate.css" />
+    <title>Chess Website</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row title">
+        <div class="col-md black">
+          <h1>Find Chess Clubs/Tournaments</h1>
+        </div>
+      </div>
+      <div class="row locate">
+        <div class="col-md-3 white panel" id="panel">
+          
+        </div>
+        <div class="col-md black map" id="map">
+          <script src="locate.js"></script>
+          <!--Normally would put the key in an environment variable, but didn't have time to get it working-->
+          <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSVBj218Y2Vl94cNjINExcwnxMV9rIj7k&libraries=places&callback=initMap">
+          </script>
+        </div>
+      </div>
+      <div class="row info">
+        <div class="col-md white">
+          This page displays the 20 closest locations related to chess based on your location.
+          Please accept the location request, or it will search from PSU by default. Your location is not stored or logged in any way.<br>
+          For a more detailed search visit the full <a href="https://www.google.com/maps/">Google Maps Page</a>
+
+
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="col-md black">
+          <h3>Website by:</h3>
+          Jeremy Carnahan and Jack Sherman
+        </div>
+      </div>
+    
+    </div>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    color: white;
+} 
+
+body{
+    background-image: url("/images/chess-bg.png");
+}
+
+img{
+    float: center;
+    max-height: 250px;
+    padding: 0px;
+}
+
+.row{
+    min-height: 100px;
+    border: 2px;
+    border-color: white;
+    margin: 1px;
+}
+
+.col-md{
+    border: 2px;
+    border-color: white;
+    margin: 4px;
+}
+
+.col-sm{
+    border: 2px;
+    border-color: white;
+    margin: 4px;
+}
+
+#card1, #card2, #card3, #card4, #card5, #card6{
+    align-content: center;
+    align-items: center;
+    margin: 1px;
+    padding: 3px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: inherit;
+}
+  
+.title{
+    
+    text-align: center;
+    height: 100px;
+}
+
+a{
+    color: inherit;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+h2{
+    color: inherit;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+h3{
+    color: inherit;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.stream{
+   min-height: 450px;
+}
+
+.streamers{
+
+    padding: 3px;
+    min-height: 200px;
+} 
+
+.footer{
+    text-align: center;
+    height: 80px;
+}
+
+.purple{ 
+    border-style: double;
+    border-color: #b9a3e3;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: #6441a5;
+}
+
+.magenta{
+    border-style: double;
+    border-color: #6441a5;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: #b9a3e3;
+    color: black;
+}

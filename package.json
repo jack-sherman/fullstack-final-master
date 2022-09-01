@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-final",
+  "version": "1.0.0",
+  "description": "A final project for CS465P",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JerCarnahan/fullstack-final.git"
+  },
+  "author": "Jeremy Carnahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JerCarnahan/fullstack-final/issues"
+  },
+  "homepage": "https://github.com/JerCarnahan/fullstack-final#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}

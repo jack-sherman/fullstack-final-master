@@ -1,0 +1,168 @@
+body{
+    background-image: url("/images/chess-bg.png");
+}
+
+.chessBoard{
+    width: 640px;
+    height: 640px;
+    object-fit: fill;
+    display: table;
+    border: 1px black;
+}
+
+.dark{
+    border: 1px solid black;
+    float: left;
+    width: 10%;
+    height: 100%;
+    background-color: #5b829c;
+    display: table-cell;
+    
+}
+.light{
+    float: left;
+    width: 10%;
+    height: 100%;
+    background-color: #ffffff ;
+    display: table-cell;
+    border: 1px solid black;
+}
+.row{
+    display: table-row;
+    
+
+}
+.gridsys{
+    display: table-row-group;
+    height: 100%;
+    width: 100%;
+}
+img{
+    object-fit: scale-down;
+    height: auto;
+    width: 100%;
+}
+.puzzle{
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.info{
+    border-radius: 2px;
+    background-color: white;
+    border: 2px solid black;
+    padding:10px;
+    padding-left: 2%;
+    width: auto;
+    max-width: 300px;
+    min-width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 0;
+}
+.column{
+    float: left;
+    width: auto;
+    height: 100%;
+    
+}
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color: lightgray;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+  }
+.spacer{
+      content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=");
+      float: left;
+      width: 10%;
+      height: 100%;
+      display: table-cell;
+}
+.toMoveCol{
+    float: left;
+    width:40%;
+    height: 100%;
+    display: table-cell;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 2%;
+}
+.row1{
+    text-align: center;
+    padding-top:2%;
+    float: left;
+    width: 10%;
+    height: 100%;
+    display: table-cell;
+}
+.container{
+    border-radius: 7px;
+    
+    width: auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.train{
+    border-radius: 3px;
+    border-color: black;
+    border: 2px solid black;
+    width: auto;
+    width: 90%;
+    max-width: 90%;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stepCounter{
+    border-radius: 2px;
+    background-color: lightsteelblue;
+    border: 2px solid black;
+    padding:10px;
+    padding-left: 2%;
+    width: auto;
+    max-width: 300px;
+    min-width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 0;
+}
+.button{
+    background-color: lightgreen;
+    border: 1px solid black;
+    color: black;
+    
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    
+}
+.footer{
+    width: 640px;
+}
+input{
+    width: 100%;
+}
+.title{
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    color:white;
+    height: 100px;
+    min-height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.5;
+}
